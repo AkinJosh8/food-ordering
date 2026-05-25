@@ -1,0 +1,163 @@
+:root {
+  --primary-orange: #FF8225;
+  --dark-brown: #5D4037;
+  --text-dark: #333;
+  --text-main: #1f2937;
+  --text-light: #4b5563;
+  --white: #ffffff;
+}
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: 'Inter', sans-serif; 
+}
+.flavour{
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+
+}
+.beans-table{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(60%);
+}
+.flavour-overlay{
+  position: absolute;
+  top: 50%;
+  left: 200px;
+  transform: translateY(-50%);
+  color: var(--white);
+  max-width: 500px;
+}
+.flavour-Addition{
+    font-size: 68px;
+  font-weight: bold;
+  line-height: 1.3;
+  width: 150%;
+}
+.flavour-Text{
+  margin: 15px 0;
+  font-size: 28px;
+  width: 150%;
+}
+.flavour-btn{
+  background: var(--primary-orange);
+  color: var(--white);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Mobile responsiveness */
+
+@media (max-width: 1200px) {
+
+  .flavour-overlay {
+    left: 100px;
+  }
+
+  .flavour-Addition {
+    font-size: 56px;
+    width: 120%;
+  }
+
+  .flavour-Text {
+    font-size: 24px;
+    width: 120%;
+  }
+
+}
+
+
+@media (max-width: 992px) {
+
+  .flavour {
+    height: 70vh;
+  }
+
+  .flavour-overlay {
+    left: 60px;
+    max-width: 450px;
+  }
+
+  .flavour-Addition {
+    font-size: 46px;
+    width: 100%;
+  }
+
+  .flavour-Text {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .flavour-btn {
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .flavour {
+    height: 60vh;
+  }
+
+  .flavour-overlay {
+    left: 20px;
+    right: 20px;
+    max-width: 100%;
+  }
+
+  .flavour-Addition {
+    font-size: 40px;
+    line-height: 1.3;
+    width: 100%;
+  }
+
+  .flavour-Text {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .flavour-btn {
+    padding: 8px 12px;
+    font-size: 12px;
+  }
+
+}
+
+
+@media (max-width: 480px) {
+
+  .flavour {
+    height: 55vh;
+  }
+
+  .flavour-overlay {
+    left: 15px;
+    right: 15px;
+  }
+
+  .flavour-Addition {
+    font-size: 28px;
+  }
+
+  .flavour-Text {
+    font-size: 14px;
+    margin: 12px 0;
+  }
+
+  .flavour-btn {
+    width: 100%;
+    max-width: 220px;
+    font-size: 12px;
+  }
+
+}

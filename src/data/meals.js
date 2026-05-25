@@ -1,0 +1,179 @@
+import recTangle from "../images/Rectangle-4.jpg"
+import recTangle2 from "../images/Rectangle-6.jpg"
+import recTangle3 from "../images/Rectangle-10.jpg"
+import recTangle4 from "../images/Rectangle-7.jpg"
+import recTangle5 from "../images/Rectangle-8.jpg"
+import recTangle6 from "../images/Rectangle-9.jpg"
+
+const meals = [
+    {
+        id: 1,
+        category: "Popular",
+        title: "Jollof Rice & Fried Chicken",
+        description: "Our signature Jollof rice, served with crispy fried chicken and plantain.",
+        price: 4500,
+        image: recTangle
+    },
+    {
+        id: 2,
+        category: "Popular",
+        title: "Eba & Egusi Soup (Goat Meat)",
+        description: "Hearty Egusi soup with tender goat meat, served with soft Eba.",
+        price: 5500,
+        image: recTangle2
+    },
+    {
+        id: 3,
+        category: "Popular",
+        title: "Pounded Yam & Edikaikong",
+        description: "Traditional pounded yam with rich, leafy Edikaikong soup.",
+        price: 3800,
+        image: recTangle3
+    },
+    {
+        id: 4,
+        category: "Popular",
+        title: "Jollof Rice & Fried Chicken",
+        description: "Our signature Jollof rice, served with crispy fried chicken and plantain.",
+        price: 4500,
+        image: recTangle
+    },
+    {
+        id: 5,
+        category: "Popular",
+        title: "Pounded Yam & Edikaikong",
+        description: "Traditional pounded yam with rich, leafy Edikaikong soup.",
+        price: 4500,
+        image: recTangle3
+    },
+    {
+        id: 6,
+        category: "Popular",
+        title: "Eba & Egusi Soup (Goat Meat)",
+        description: "Hearty Egusi soup with tender goat meat, served with soft Eba.",
+        price: 3500,
+        image: recTangle2
+    },
+    {
+        id: 7,
+        category: "Jollof Rice & Entrees",
+        title: "Jollof Rice & Smoked Fish",
+        description: "Flavorful jollof rice served with perfectly smoked fish.",
+        price: 3500,
+        image: recTangle
+    },
+    {
+        id: 8,
+        category: "Jollof Rice & Entrees",
+        title: "Party Jollof Rice (Veg)",
+        description: "Vegetarian party jollof, full of rich flavors.",
+        price: 2800,
+        image: recTangle4
+    },
+    {
+        id: 9,
+        category: "Jollof Rice & Entrees",
+        title: "Party Jollof Rice (Veg)",
+        description: "Vegetarian party jollof, full of rich flavors.",
+        price: 3500,
+        image: recTangle
+    },
+    {
+        id: 10,
+        category: "Swallow & Soups",
+        title: "Amala with Gbegiri & Ewedu",
+        description: "Classic Amala served with Gbegiri (beans) and Ewedu (jute leaf) soup.",
+        price: 3100,
+        image: recTangle5
+    },
+    {
+        id: 11,
+        category: "Swallow & Soups",
+        title: "Fufu & Okra Soup (Fish)",
+        description: "Light Fufu served with fresh okra soup and tilapia fish.",
+        price: 3300,
+        image: recTangle6
+    },
+    {
+        id: 12,
+        category: "Swallow & Soups",
+        title: "Fufu & Okra Soup (Fish)",
+        description: "Light Fufu served with fresh okra soup and tilapia fish.",
+        price: 3500,
+        image: recTangle6
+    },
+    {
+        id: 13,
+        category: "Grills & Sides",
+        title: "Amala with Gbegiri & Ewedu",
+        description: "Classic Amala served with Gbegiri (beans) and Ewedu (jute leaf) soup.",
+        price: 3100,
+        image: recTangle5
+    },
+    {
+        id: 14,
+        category: "Grills & Sides",
+        title: "Fufu & Okra Soup (Fish)",
+        description: "Light Fufu served with fresh okra soup and tilapia fish.",
+        price: 3300,
+        image: recTangle6
+    },
+    {
+        id: 15,
+        category: "Grills & Sides",
+        title: "Fufu & Okra Soup (Fish)",
+        description: "Light Fufu served with fresh okra soup and tilapia fish.",
+        price: 3500,
+        image: recTangle6
+    },
+    {
+        id: 16,
+        category: "Beverages",
+        title: "Amala with Gbegiri & Ewedu",
+        description: "Classic Amala served with Gbegiri (beans) and Ewedu (jute leaf) soup.",
+        price: 3100,
+        image: recTangle5
+    },
+    {
+        id: 17,
+        category: "Beverages",
+        title: "Fufu & Okra Soup (Fish)",
+        description: "Light Fufu served with fresh okra soup and tilapia fish.",
+        price: 3300,
+        image: recTangle6
+    },
+    {
+        id: 18,
+        category: "Beverages",
+        title: "Fufu & Okra Soup (Fish)",
+        description: "Light Fufu served with fresh okra soup and tilapia fish.",
+        price: 3500,
+        image: recTangle6
+    },
+    {
+        id: 19,
+        category: "Desserts",
+        title: "Amala with Gbegiri & Ewedu",
+        description: "Classic Amala served with Gbegiri (beans) and Ewedu (jute leaf) soup.",
+        price: 3100,
+        image: recTangle5
+    },
+    {
+        id: 20,
+        category: "Desserts",
+        title: "Fufu & Okra Soup (Fish)",
+        description: "Light Fufu served with fresh okra soup and tilapia fish.",
+        price: 3300,
+        image: recTangle6
+    },
+    {
+        id: 21,
+        category: "Desserts",
+        title: "Fufu & Okra Soup (Fish)",
+        description: "Light Fufu served with fresh okra soup and tilapia fish.",
+        price: 3500,
+        image: recTangle6
+    },
+
+]
+export default meals;

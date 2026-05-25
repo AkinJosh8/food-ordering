@@ -1,0 +1,46 @@
+:root {
+  --primary-orange: #FF8225;
+  --dark-brown: #5D4037;
+  --text-dark: #333;
+  --text-main: #1f2937;
+  --text-light: #4b5563;
+  --white: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+html{
+  scroll-behavior: smooth;
+}
+.toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: var(--text-main);
+  color: var(--white);
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-size: 14px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  animation: slideIn 0.3s ease;
+  z-index: 9999;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

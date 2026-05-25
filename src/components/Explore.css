@@ -1,0 +1,98 @@
+:root {
+  --primary-orange: #FF8225;
+  --dark-brown: #5D4037;
+  --text-dark: #333;
+  --text-main: #1f2937;
+  --text-light: #4b5563;
+  --white: #ffffff;
+}
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: 'Inter', sans-serif; 
+}
+.explore-page {
+  padding: 50px 40px;
+  background: var(--white);
+}
+.meals-section{
+  border-bottom: 1px solid #e4e4e4;
+   padding: 50px 0;
+}
+.meals-section:last-child {
+  border-bottom: none;
+}
+.meals-section h1 {
+  margin-bottom: 35px;
+  color: var(--text-main);
+  border-left: 4px solid var(--primary-orange);
+  padding-left: 14px;
+}
+
+.meals-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+.search-bar {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.search-bar input {
+  width: 60%;
+  padding: 14px 18px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.search-bar input:focus {
+  border-color: var(--primary-orange);
+  box-shadow: 0 0 8px rgba(255, 130, 37, 0.25);
+}
+
+@media (max-width: 992px) {
+  .meals-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .meals-section h1 {
+    font-size: 30px;
+  }
+   .search-bar input {
+    width: 75%;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+
+  .explore-page {
+    padding: 25px 18px;
+  }
+
+  .meals-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+   .meals-section {
+    padding: 50px 0;
+  }
+
+  .meals-section h1 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+   .search-bar input {
+    width: 100%;
+    font-size: 15px;
+    padding: 12px 14px;
+  }
+
+}
