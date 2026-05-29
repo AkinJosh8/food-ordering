@@ -12,7 +12,6 @@ function Footer() {
                     to your table, with passion and care.</p>
                 </div>
 
-                {/*Links section */}
                 <div className="footer-links">
                     <h3>Quick Links</h3>
                     <ul>
@@ -23,8 +22,7 @@ function Footer() {
                         <li>Contact</li>
                     </ul>
                 </div>
-
-                {/* Contact section */}
+                
                 <div className="footer-contact">
                     <h3>Contact Us</h3>
 
@@ -32,8 +30,7 @@ function Footer() {
                     <p>hello@chukskitchen.com</p>
                     <p>03 Forman street, Lagos, Nigeria</p>
                 </div>
-
-                {/* Socials */}
+                
                 <div className="footer-socials">
                     <h3>Social media</h3>
 

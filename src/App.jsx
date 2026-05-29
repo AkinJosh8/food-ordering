@@ -135,6 +135,7 @@ function App() {
 
         <Route path="/Payment" element={<Payment clearCart={clearCart} />} />
         <Route path="/order-confirmation" element={<OrderConfirmation />} />
+
       </Routes>
 
     </>

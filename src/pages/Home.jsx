@@ -1,5 +1,4 @@
 import Hero from "../components/Hero"
-import SearchBar from "../components/searchBar"
 import Categories from "../components/Categories"
 import ChefSpecials from "../components/ChefSpecials"
 import Flavour from "../components/Flavour"
@@ -24,7 +23,6 @@ function Home({addToCart}) {
     return (
         <>
             <Hero />
-            <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
             <Categories />
             <ChefSpecials addToCart={addToCart} searchTerm={searchTerm} />
             <Flavour />

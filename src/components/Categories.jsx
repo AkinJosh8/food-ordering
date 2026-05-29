@@ -31,12 +31,12 @@ const categories = [
     },
     {
         id: "5",
-        name: "Jollof Delights",
+        name: "Deserts",
         image: recTangle5,
     },
     {
         id: "6",
-        name: "Jollof Delights",
+        name: "Beverages",
         image: recTangle6,
     }
 ]

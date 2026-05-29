@@ -16,7 +16,7 @@ function Navbar({ cartItems}) {
 
   return ( 
     <nav className="navbar">
-      <h2 className="logo">Chukks Kitchen</h2>
+      <h2 className="logo">Chuks Kitchen</h2>
 
       <ul className={ MenuOpen ? "nav-links active" : "nav-links" }>
         <li><Link to="/"> Home</Link></li>
@@ -37,7 +37,7 @@ function Navbar({ cartItems}) {
         )}
         </Link>
 
-          <div className="hamburger" onClick={toggleMenu}>
+          <div className={MenuOpen ? "hamburger active" : "hamburger"} onClick={toggleMenu}>
             <span className="bar"></span>
             <span className="bar"></span>
             <span className="bar"></span>
