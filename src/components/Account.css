@@ -149,7 +149,6 @@
   font-weight: 600;
   transition: 0.3s;
 }
-
 .upload-btn:hover {
   opacity: 0.85;
 }
@@ -180,7 +179,6 @@
   align-items: center;
   z-index: 2000;
 }
-
 .edit-modal {
   background: white;
   width: 420px;
@@ -188,7 +186,6 @@
   border-radius: 18px;
   box-shadow: 0 20px 50px rgba(0,0,0,0.15);
 }
-
 .edit-modal input {
   width: 100%;
   padding: 14px;
@@ -197,7 +194,6 @@
   border-radius: 10px;
   outline: none;
 }
-
 .modal-actions {
   display: flex;
   gap: 12px;
@@ -241,7 +237,6 @@
   flex: 1;
   min-width: 120px;
 }
-
 .logout-btn {
   background: #ef4444 !important;
 }
@@ -258,7 +253,7 @@
     flex-direction: column-reverse;
     align-items: center;
     gap: 20px;
-    text-align: center;
+    text-align: left;
   }
 
   .edit-modal {
