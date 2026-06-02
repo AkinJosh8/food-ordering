@@ -1,7 +1,25 @@
 import "./Footer.css"
-
+import facebook from "../images/socials/Facebook.png"
+import twitter from "../images/socials/X icon.png"
+import linkedin from "../images/socials/Linkedin.png"
+import instagram from "../images/socials/Instagram.png"
 
 function Footer() {
+    const quickLinks = [
+         "Home",
+        "Explore",
+        "My Order",
+        "Account",
+        "Contact"
+    ]
+
+const socials = [
+  { icon: facebook, alt: "Facebook" },
+  { icon: twitter, alt: "Twitter" },
+  { icon: linkedin, alt: "LinkedIn" },
+  { icon: instagram, alt: "Instagram" }
+]
+
     return(
         <footer className="footer">
             <div className="footer-container">
@@ -33,13 +51,16 @@ function Footer() {
                 
                 <div className="footer-socials">
                     <h3>Social media</h3>
-
-                    <ul>
-                        <li>Facebook</li>
-                        <li>Twitter</li>
-                        <li>LinkedIn</li>
-                        <li>Instagram</li>
-                    </ul>
+                 <div className="footer-social-icons">
+                        {socials.map((item, index) => (
+                            <img
+                                key={index}
+                                src={item.icon}
+                                alt={item.alt}
+                            />
+                        ))}
+                    </div>
+                    
                 </div>
             </div>
             <div className="footer-bottom">
@@ -50,14 +71,5 @@ function Footer() {
 
     )
 }
-
-
-
-
-
-
-
-
-
 
 export default Footer

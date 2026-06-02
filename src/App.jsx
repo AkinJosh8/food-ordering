@@ -133,7 +133,7 @@ function App() {
         <Route path="/checkout" element={
           <Checkout cartItems={cartItems} />} />
 
-        <Route path="/Payment" element={<Payment clearCart={clearCart} />} />
+        <Route path="/payment" element={<Payment clearCart={clearCart} />} />
         <Route path="/order-confirmation" element={<OrderConfirmation />} />
 
       </Routes>

@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css"
 import CartIcon from "./CartIcon";
+import {NavLink} from "react-router-dom"
 
 
 function Navbar({ cartItems}) {
@@ -19,10 +20,10 @@ function Navbar({ cartItems}) {
       <h2 className="logo">Chuks Kitchen</h2>
 
       <ul className={ MenuOpen ? "nav-links active" : "nav-links" }>
-        <li><Link to="/"> Home</Link></li>
-        <li><Link to="/explore">Explore</Link></li>
-        <li><Link to="/order">My Orders</Link></li>
-        <li><Link to="/account">Account</Link></li>
+        <li><NavLink to="/" className={({ isActive }) => isActive ? "active-link" : ""}> Home</NavLink></li>
+        <li><NavLink to="/explore" className={({ isActive }) => isActive ? "active-link" : ""}>Explore</NavLink></li>
+        <li><NavLink to="/order" className={({ isActive }) => isActive ? "active-link" : ""}>My Orders</NavLink></li>
+        <li><NavLink to="/account" className={({ isActive }) => isActive ? "active-link" : ""}>Account</NavLink></li>
       </ul>
 
       <div className="nav-right">

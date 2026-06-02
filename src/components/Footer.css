@@ -40,8 +40,23 @@
   cursor: pointer;
 }
 
-.footer ul {
-  padding: 0;
+.footer-social-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-social-icons img {
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  filter: brightness(0) invert(1); 
+}
+
+.footer-social-icons img:hover {
+  transform: translateY(-3px);
+  opacity: 0.8;
 }
 
 .footer-bottom {
@@ -63,6 +78,10 @@
   .footer-container {
     grid-template-columns: 1fr;
     gap: 30px;
+    text-align: center;
+  }
+   .footer-social-icons {
+    justify-content: center;
   }
 
   .footer h3 {
