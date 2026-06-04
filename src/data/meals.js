@@ -4,6 +4,24 @@ import recTangle3 from "../images/Rectangle-10.jpg"
 import recTangle4 from "../images/Rectangle-7.jpg"
 import recTangle5 from "../images/Rectangle-8.jpg"
 import recTangle6 from "../images/Rectangle-9.jpg"
+import recTangle7 from "../images/Rectangle-11.jpg"
+import recTangle8 from "../images/Rectangle-12.jpg"
+import recTangle9 from "../images/Rectangle-13.jpg"
+import recTangle10 from "../images/Rectangle-14.jpg"
+import recTangle11 from "../images/Rectangle-15.jpg"
+import recTangle12 from "../images/Rectangle-16.jpg"
+import recTangle13 from "../images/Rectangle-17.jpg"
+import recTangle14 from "../images/Rectangle-18.jpg"
+import recTangle15 from "../images/Rectangle-19.jpg"
+import recTangle16 from "../images/Rectangle-20.jpg"
+import recTangle17 from "../images/Rectangle-21.jpg"
+import recTangle18 from "../images/Rectangle-22.jpg"
+import recTangle19 from "../images/Rectangle-23.jpg"
+import recTangle20 from "../images/Rectangle-24.jpg"
+import recTangle21 from "../images/Rectangle-25.jpg"
+import recTangle22 from "../images/Rectangle-26.jpg"
+import recTangle23 from "../images/Rectangle-27.jpg"
+import recTangle24 from "../images/Rectangle-28.jpg"
 
 const meals = [
     {
@@ -20,7 +38,7 @@ const meals = [
         title: "Eba & Egusi Soup (Goat Meat)",
         description: "Hearty Egusi soup with tender goat meat, served with soft Eba.",
         price: 5500,
-        image: recTangle2
+        image: recTangle19
     },
     {
         id: 3,
@@ -36,7 +54,7 @@ const meals = [
         title: "Jollof Rice & Fried Chicken",
         description: "Our signature Jollof rice, served with crispy fried chicken and plantain.",
         price: 4500,
-        image: recTangle
+        image: recTangle11
     },
     {
         id: 5,
@@ -60,7 +78,7 @@ const meals = [
         title: "Jollof Rice & Smoked Fish",
         description: "Flavorful jollof rice served with perfectly smoked fish.",
         price: 3500,
-        image: recTangle
+        image: recTangle22
     },
     {
         id: 8,
@@ -68,7 +86,7 @@ const meals = [
         title: "Party Jollof Rice (Veg)",
         description: "Vegetarian party jollof, full of rich flavors.",
         price: 2800,
-        image: recTangle4
+        image: recTangle11
     },
     {
         id: 9,
@@ -76,7 +94,7 @@ const meals = [
         title: "Party Jollof Rice (Veg)",
         description: "Vegetarian party jollof, full of rich flavors.",
         price: 3500,
-        image: recTangle
+        image: recTangle6
     },
     {
         id: 10,
@@ -84,7 +102,7 @@ const meals = [
         title: "Amala with Gbegiri & Ewedu",
         description: "Classic Amala served with Gbegiri (beans) and Ewedu (jute leaf) soup.",
         price: 3100,
-        image: recTangle5
+        image: recTangle15
     },
     {
         id: 11,
@@ -92,39 +110,39 @@ const meals = [
         title: "Fufu & Okra Soup (Fish)",
         description: "Light Fufu served with fresh okra soup and tilapia fish.",
         price: 3300,
-        image: recTangle6
+        image: recTangle10
     },
     {
         id: 12,
         category: "Swallow & Soups",
-        title: "Fufu & Okra Soup (Fish)",
-        description: "Light Fufu served with fresh okra soup and tilapia fish.",
+        title: "Pounded yam & Vegetable Soup",
+        description: "Light Pounded yam served with vegetable soup.",
         price: 3500,
         image: recTangle6
     },
     {
         id: 13,
         category: "Grills & Sides",
-        title: "Amala with Gbegiri & Ewedu",
-        description: "Classic Amala served with Gbegiri (beans) and Ewedu (jute leaf) soup.",
-        price: 3100,
-        image: recTangle5
+        title: "Peppered stick meat",
+        description: "Deliciously marinated stick meat, grilled to perfection and coated in our signature pepper sauce.",
+        price: 4500,
+        image: recTangle21
     },
     {
         id: 14,
         category: "Grills & Sides",
-        title: "Fufu & Okra Soup (Fish)",
-        description: "Light Fufu served with fresh okra soup and tilapia fish.",
-        price: 3300,
-        image: recTangle6
+        title: "Fried Chicken",
+        description: "Crispy fried chicken, seasoned to perfection.",
+        price: 6500,
+        image: recTangle16
     },
     {
         id: 15,
         category: "Grills & Sides",
-        title: "Fufu & Okra Soup (Fish)",
-        description: "Light Fufu served with fresh okra soup and tilapia fish.",
-        price: 3500,
-        image: recTangle6
+        title: "Chicken & Chips",
+        description: "Juicy grilled chicken served with golden fries and a side of sauce.",
+        price: 7500,
+        image: recTangle17
     },
     {
         id: 16,
