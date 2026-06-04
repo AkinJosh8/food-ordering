@@ -5,9 +5,9 @@ import recTangle4 from "../images/Rectangle-7.jpg"
 import recTangle5 from "../images/Rectangle-8.jpg"
 import recTangle6 from "../images/Rectangle-9.jpg"
 import recTangle7 from "../images/Rectangle-11.jpg"
-import recTangle8 from "../images/Rectangle-12.jpg"
-import recTangle9 from "../images/Rectangle-13.jpg"
-import recTangle10 from "../images/Rectangle-14.jpg"
+import recTangle8 from "../images/Rectangle-12.png"
+import recTangle9 from "../images/Rectangle-13.png"
+import recTangle10 from "../images/Rectangle-14.png"
 import recTangle11 from "../images/Rectangle-15.jpg"
 import recTangle12 from "../images/Rectangle-16.jpg"
 import recTangle13 from "../images/Rectangle-17.jpg"
@@ -35,8 +35,8 @@ const meals = [
     {
         id: 2,
         category: "Popular",
-        title: "Eba & Egusi Soup (Goat Meat)",
-        description: "Hearty Egusi soup with tender goat meat, served with soft Eba.",
+        title: "Eba & Egusi Soup & Fish",
+        description: "Hearty Egusi soup with fish, served with soft Eba.",
         price: 5500,
         image: recTangle19
     },
@@ -51,8 +51,8 @@ const meals = [
     {
         id: 4,
         category: "Popular",
-        title: "Jollof Rice & Fried Chicken",
-        description: "Our signature Jollof rice, served with crispy fried chicken and plantain.",
+        title: "Jollof Rice & Salad",
+        description: "Our signature Jollof rice, served with salad, crispy fried chicken and plantain.",
         price: 4500,
         image: recTangle11
     },
@@ -77,7 +77,7 @@ const meals = [
         category: "Jollof Rice & Entrees",
         title: "Jollof Rice & Smoked Fish",
         description: "Flavorful jollof rice served with perfectly smoked fish.",
-        price: 3500,
+        price: 7500,
         image: recTangle22
     },
     {
@@ -85,14 +85,14 @@ const meals = [
         category: "Jollof Rice & Entrees",
         title: "Party Jollof Rice (Veg)",
         description: "Vegetarian party jollof, full of rich flavors.",
-        price: 2800,
+        price: 4800,
         image: recTangle11
     },
     {
         id: 9,
         category: "Jollof Rice & Entrees",
-        title: "Party Jollof Rice (Veg)",
-        description: "Vegetarian party jollof, full of rich flavors.",
+        title: "Jollof Rice & medium size meat",
+        description: "Jollof rice served with medium size meat, full of rich flavors.",
         price: 3500,
         image: recTangle6
     },
@@ -101,7 +101,7 @@ const meals = [
         category: "Swallow & Soups",
         title: "Amala with Gbegiri & Ewedu",
         description: "Classic Amala served with Gbegiri (beans) and Ewedu (jute leaf) soup.",
-        price: 3100,
+        price: 4000,
         image: recTangle15
     },
     {
@@ -118,7 +118,7 @@ const meals = [
         title: "Pounded yam & Vegetable Soup",
         description: "Light Pounded yam served with vegetable soup.",
         price: 3500,
-        image: recTangle6
+        image: recTangle19
     },
     {
         id: 13,
@@ -147,50 +147,50 @@ const meals = [
     {
         id: 16,
         category: "Beverages",
-        title: "Amala with Gbegiri & Ewedu",
-        description: "Classic Amala served with Gbegiri (beans) and Ewedu (jute leaf) soup.",
-        price: 3100,
-        image: recTangle5
+        title: "Watermelon Juice",
+        description: "Refreshing watermelon juice, perfect for quenching your thirst.",
+        price: 2500,
+        image: recTangle24
     },
     {
         id: 17,
         category: "Beverages",
-        title: "Fufu & Okra Soup (Fish)",
-        description: "Light Fufu served with fresh okra soup and tilapia fish.",
-        price: 3300,
-        image: recTangle6
+        title: "Chapman drink",
+        description: "A refreshing blend of fruits, perfect for a quick energy boost.",
+        price: 2500,
+        image: recTangle23
     },
     {
         id: 18,
         category: "Beverages",
-        title: "Fufu & Okra Soup (Fish)",
-        description: "Light Fufu served with fresh okra soup and tilapia fish.",
-        price: 3500,
-        image: recTangle6
+        title: "Parfait drink",
+        description: "A delicious blend of fruits and yogurt, perfect for a healthy treat.",
+        price: 6500,
+        image: recTangle18
     },
     {
         id: 19,
         category: "Desserts",
-        title: "Amala with Gbegiri & Ewedu",
-        description: "Classic Amala served with Gbegiri (beans) and Ewedu (jute leaf) soup.",
-        price: 3100,
-        image: recTangle5
+        title: "Small chops platter",
+        description: "A delightful assortment of bite-sized Nigerian snacks, perfect for sharing at any occasion.",
+        price: 5500,
+        image: recTangle12
     },
     {
         id: 20,
         category: "Desserts",
-        title: "Fufu & Okra Soup (Fish)",
-        description: "Light Fufu served with fresh okra soup and tilapia fish.",
-        price: 3300,
-        image: recTangle6
+        title: "Chocolate cake",
+        description: "A rich and decadent chocolate cake, perfect for satisfying your sweet tooth.",
+        price: 6500,
+        image: recTangle14
     },
     {
         id: 21,
         category: "Desserts",
-        title: "Fufu & Okra Soup (Fish)",
-        description: "Light Fufu served with fresh okra soup and tilapia fish.",
+        title: "Puff Puff and Chin Chin",
+        description: "A delicious combination of crispy puff puff and sweet chin chin, perfect for a sweet treat.",
         price: 3500,
-        image: recTangle6
+        image: recTangle7
     },
 
 ]
