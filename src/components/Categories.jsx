@@ -5,6 +5,8 @@ import recTangle3 from "../images/Rectangle-7.jpg"
 import recTangle4 from "../images/Rectangle-11.jpg"
 import recTangle5 from "../images/Rectangle-9.jpg"
 import recTangle6 from "../images/Rectangle-4.jpg"
+import recTangle12 from "../images/Rectangle-16.jpg"
+import recTangle24 from "../images/Rectangle-28.jpg"
 import mealCard from "../components/MealCard"
 
 const categories = [
@@ -32,12 +34,12 @@ const categories = [
     {
         id: "5",
         name: "Deserts",
-        image: recTangle5,
+        image: recTangle12,
     },
     {
         id: "6",
         name: "Beverages",
-        image: recTangle6,
+        image: recTangle24,
     }
 ]
 
