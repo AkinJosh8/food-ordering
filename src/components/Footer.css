@@ -40,25 +40,26 @@
   cursor: pointer;
 }
 
-.footer-social-icons {
+.footer-social-icons a {
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
-  gap: 15px;
-}
+  justify-content: center;
 
-.footer-social-icons img {
-  width: 28px;
-  height: 28px;
-  cursor: pointer;
+  color: white;
+  font-size: 20px;
+
+  border-radius: 50%;
   transition: 0.3s ease;
-  filter: brightness(0) invert(1); 
+  background: rgba(255, 255, 255, 0.08);
 }
 
-.footer-social-icons img:hover {
-  transform: translateY(-3px);
-  opacity: 0.8;
+.footer-social-icons a:hover {
+  transform: translateY(-6px) scale(1.15);
+  color: var(--primary-orange);
+  background: rgba(255, 130, 37, 0.15);
 }
-
 .footer-bottom {
   margin-top: 50px;
   border-top: 1px solid rgba(255,255,255,0.2);
