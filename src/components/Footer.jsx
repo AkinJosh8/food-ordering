@@ -1,20 +1,34 @@
 import "./Footer.css"
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa"
+import { Link } from "react-router-dom"
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa"
 
 function Footer() {
     const quickLinks = [
-        "Home",
-        "Explore",
-        "My Order",
-        "Account",
-        "Contact"
+        { name: "Home", path: "/" },
+        { name: "Explore", path: "/explore" },
+        { name: "My Orders", path: "/order" },
+        { name: "Account", path: "/account" }
     ]
 
+
     const socials = [
-        { icon: FaFacebookF, url: "https://facebook.com", label: "Facebook" },
-        { icon: FaTwitter, url: "https://twitter.com", label: "Twitter" },
-        { icon: FaLinkedinIn, url: "https://linkedin.com", label: "LinkedIn" },
-        { icon: FaInstagram, url: "https://instagram.com", label: "Instagram" }
+        { 
+            icon: FaFacebookF, 
+            url: "https://facebook.com", 
+            label: "Facebook" 
+        },
+        {   icon: FaGithub, 
+            url: "https://github.com/AkinJosh8", 
+            label: "GitHub" 
+        },
+        {   icon: FaLinkedinIn, 
+            url: "https://linkedin.com/in/idowu-akinleye-6a4156358", 
+            label: "LinkedIn" 
+        },
+        {   icon: FaInstagram, 
+            url: "https://instagram.com", 
+            label: "Instagram" 
+        }
     ]
 
     return (
@@ -31,12 +45,15 @@ function Footer() {
 
                 <div className="footer-links">
                     <h3>Quick Links</h3>
-                    <ul>
-                        {quickLinks.map((link, index) => (
-                            <li key={index}>{link}</li>
-                        ))}
-                    </ul>
-                </div>
+
+                <ul>
+                    {quickLinks.map((link, index) => (
+                    <li key={index}> <Link to={link.path}>
+                    {link.name} </Link>
+                    </li>
+                    ))}
+                </ul>
+            </div>
 
                 <div className="footer-contact">
                     <h3>Contact Us</h3>
@@ -46,19 +63,13 @@ function Footer() {
                 </div>
 
                 <div className="footer-socials">
-                    <h3>Social media</h3>
+                    <h3>Follow us</h3>
 
                     <div className="footer-social-icons">
                         {socials.map((item, index) => {
                             const Icon = item.icon
                             return (
-                                <a
-                                    key={index}
-                                    href={item.url}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    aria-label={item.label}
-                                >
+                                <a  key={index} href={item.url} target="_blank" rel="noreferrer" aria-label={item.label} >
                                     <Icon />
                                 </a>
                             )
