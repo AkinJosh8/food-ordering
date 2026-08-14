@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import "../components/orderConfirmation.css"
+import "../components/OrderConfirmation.css"
 
 function OrderConfirmation() {
     const orderNumber = Math.floor(Math.random() * 1000000)

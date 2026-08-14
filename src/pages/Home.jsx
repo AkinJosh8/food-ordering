@@ -2,7 +2,7 @@ import Hero from "../components/Hero"
 import Categories from "../components/Categories"
 import ChefSpecials from "../components/ChefSpecials"
 import Flavour from "../components/Flavour"
-import Footer from "../components/footer"
+import Footer from "../components/Footer"
 import { useState, useEffect } from "react";
 import Loader from "../components/Loader"
 
