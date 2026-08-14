@@ -34,7 +34,7 @@ function Navbar({ cartItems}) {
     <nav className="navbar" ref={menuRef}>
       <h2 className="logo">Chuks Kitchen</h2>
 
-      <ul className={ MenuOpen ? "nav-links active" : "nav-links" } ref={menuRef}>
+      <ul className={ MenuOpen ? "nav-links active" : "nav-links" }>
         <li onClick={() => setMenuOpen(false)}>
           <NavLink to="/" className={({ isActive }) => (isActive ? "active-link" : "")}> Home</NavLink></li>
         <li onClick={() => setMenuOpen(false)}>
@@ -51,13 +51,13 @@ function Navbar({ cartItems}) {
         <CartIcon />
 
           {cartCount > 0 && (
-            <span className="cart-count">
+            <span className="cart-count"> 
               {cartCount}
               </span>
         )}
         </NavLink>
 
-          <div className={MenuOpen ? "hamburger active" : "hamburger"} onClick={toggleMenu} ref={menuRef}>
+          <div className={MenuOpen ? "hamburger active" : "hamburger"} onClick={toggleMenu}>
             <span className="bar"></span>
             <span className="bar"></span>
             <span className="bar"></span>

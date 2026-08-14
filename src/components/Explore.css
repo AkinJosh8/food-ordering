@@ -24,7 +24,8 @@
   border-bottom: none;
 }
 .meals-section h1 {
-  margin-bottom: 35px;
+  max-width: 1200px;
+  margin: 0 auto 35px;
   color: var(--text-main);
   border-left: 4px solid var(--primary-orange);
   padding-left: 14px;
@@ -32,8 +33,10 @@
 
 .meals-grid{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 35px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .search-bar {
   margin-bottom: 30px;
@@ -59,8 +62,10 @@
 @media (max-width: 992px) {
   .meals-grid {
     grid-template-columns: repeat(2, 1fr);
+    max-width: 750px;
   }
   .meals-section h1 {
+    max-width: 750px;
     font-size: 30px;
   }
    .search-bar input {
@@ -78,6 +83,7 @@
 
   .meals-grid {
     grid-template-columns: 1fr;
+    max-width: 500px;
     gap: 25px;
   }
 
@@ -86,6 +92,7 @@
   }
 
   .meals-section h1 {
+    max-width: 500px;
     font-size: 24px;
     margin-bottom: 25px;
   }

@@ -22,10 +22,7 @@ function Explore( { addToCart} ) {
       </div>
 
       <section className="explore-page">
-        <ExploreMenu 
-          activeCategory={activeCategory}
-          setActiveCategory={setActiveCategory}
-        />
+        <ExploreMenu />
 
         <div id="popular" className="meals-section">
           <h1>Popular</h1>
