@@ -6,7 +6,7 @@ function ExploreMenu() {
 
     return (
         <div className="explore-menu">
-            <h2>Menu Categories</h2>
+            <h1>Explore Nigerian Meals</h1>
 
             <ul>
                 <li className={activeCategory === "popular" ? "active-category" : ""}

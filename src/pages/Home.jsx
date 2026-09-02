@@ -5,6 +5,7 @@ import Flavour from "../components/Flavour"
 import Footer from "../components/Footer"
 import { useState, useEffect } from "react";
 import Loader from "../components/Loader"
+import SEO from "../components/SEO"
 
 function Home({addToCart}) {
     const [searchTerm, setSearchTerm] = useState("")
@@ -22,6 +23,11 @@ function Home({addToCart}) {
     if (loading) return <Loader />;
     return (
         <>
+            <SEO
+                title="Chuks Kitchen | Nigerian Food Delivery in Lagos"
+                description="Order authentic Nigerian meals from Chuks Kitchen, freshly prepared and delivered across Lagos."
+                 canonical="https://chukks-bites.netlify.app/"
+            />
             <Hero />
             <Categories />
             <ChefSpecials addToCart={addToCart} searchTerm={searchTerm} />

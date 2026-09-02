@@ -4,6 +4,7 @@ import "../components/Explore.css"
 import meals from "../data/meals"
 import ExploreMenu from "../components/ExploreMenu";
 import MealCard from "../components/MealCard";
+import SEO from "../components/SEO"
 
 function Explore( { addToCart} ) {
   //state to keep track of the active category in the explore page
@@ -14,6 +15,11 @@ function Explore( { addToCart} ) {
 
   return(
     <>
+      <SEO
+        title="Nigerian Food Menu | Chuks Kitchen"
+        description="Order authentic Nigerian meals from Chuks Kitchen, freshly prepared and delivered across Lagos. Explore jollof rice, soups, grills, sides, desserts and more."
+        canonical="https://chukks-bites.netlify.app/explore"
+      />
       <ExploreHero />
       <div className="search-bar">
         <input type="text" placeholder="Search meals..." value={searchTerm}
@@ -22,10 +28,13 @@ function Explore( { addToCart} ) {
       </div>
 
       <section className="explore-page">
-        <ExploreMenu />
+        <ExploreMenu 
+          activeCategory={activeCategory} 
+          setActiveCategory={setActiveCategory}
+        />
 
         <div id="popular" className="meals-section">
-          <h1>Popular</h1>
+          <h2>Popular</h2>
 
           <div className="meals-grid">
             {meals.filter(meal => meal.category === "Popular" && meal.title.toLowerCase().includes(searchTerm.toLowerCase()))
@@ -36,7 +45,7 @@ function Explore( { addToCart} ) {
           </div>
         </div>
         <div id="jollof" className="meals-section">
-          <h1>Jollof Rice & Entrees</h1>
+          <h2>Jollof Rice & Entrees</h2>
 
           <div className="meals-grid">
             {meals.filter(meal => meal.category === "Jollof Rice & Entrees" && meal.title.toLowerCase().includes(searchTerm.toLowerCase()))
@@ -48,7 +57,7 @@ function Explore( { addToCart} ) {
         </div>
 
         <div id="swallow" className="meals-section">
-          <h1>Swallow & Soups</h1>
+          <h2>Swallow & Soups</h2>
 
           <div className="meals-grid">
             {meals.filter(meal => meal.category === "Swallow & Soups" && meal.title.toLowerCase().includes(searchTerm.toLowerCase()) )
@@ -60,7 +69,7 @@ function Explore( { addToCart} ) {
         </div>
 
         <div id="grills" className="meals-section">
-          <h1>Grills & Sides  </h1>
+          <h2>Grills & Sides  </h2>
 
           <div className="meals-grid">
             {meals.filter(meal => meal.category === "Grills & Sides" && meal.title.toLowerCase().includes(searchTerm.toLowerCase()))
@@ -72,7 +81,7 @@ function Explore( { addToCart} ) {
         </div>
         
         <div id="desserts" className="meals-section">
-          <h1>Desserts</h1>
+          <h2>Desserts</h2>
 
           <div className="meals-grid">
             {meals.filter(meal => meal.category === "Desserts" && meal.title.toLowerCase().includes(searchTerm.toLowerCase()))
@@ -84,7 +93,7 @@ function Explore( { addToCart} ) {
         </div>
 
         <div id="beverages" className="meals-section">
-          <h1>Beverages </h1>
+          <h2>Beverages </h2>
 
           <div className="meals-grid">
             {meals.filter(meal => meal.category === "Beverages" && meal.title.toLowerCase().includes(searchTerm.toLowerCase()))

@@ -8,7 +8,7 @@ function Hero() {
 
             <div className="hero-overlay">
                 <h1>The Heart of Nigerian Home Cooking </h1>
-                <p>Handcrafted with passion, delivered with care.</p>
+                <p>Authentic Nigerian meals, freshly prepared and delivered across Lagos.</p>
                 <button className="hero-btn">Discover what's new</button>
             </div>
         </section>

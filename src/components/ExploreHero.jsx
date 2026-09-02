@@ -5,12 +5,12 @@ function ExploreHero() {
 
     return (
         <section className="explore-hero">
-            <img src={heroImg} alt="Home dishes" className="dishes-img"/>
+            <img src={heroImg} alt="Nigerian home-cooked dishes" className="dishes-img"/>
 
             <div className="explore-overlay">
-                <h1>Chuks Kitchen</h1>
-                <p>Chuks Kitchen Nigerian Home Cooking
-                    <span>4.8 (1.2) </span>
+                <h1>Nigerian Food Menu</h1>
+
+                <p>Authentic Nigerian meals, freshly prepared and delivered across Lagos.
                 </p>
             </div>
 
