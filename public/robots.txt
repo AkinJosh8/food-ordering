@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://chukks-kitchen.netlify.app/sitemap.xml

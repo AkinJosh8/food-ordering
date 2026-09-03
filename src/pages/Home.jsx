@@ -26,7 +26,7 @@ function Home({addToCart}) {
             <SEO
                 title="Chuks Kitchen | Nigerian Food Delivery in Lagos"
                 description="Order authentic Nigerian meals from Chuks Kitchen, freshly prepared and delivered across Lagos."
-                 canonical="https://chukks-bites.netlify.app/"
+                canonical="https://chukks-kitchen.netlify.app/"
             />
             <Hero />
             <Categories />

@@ -18,7 +18,7 @@ function Explore( { addToCart} ) {
       <SEO
         title="Nigerian Food Menu | Chuks Kitchen"
         description="Order authentic Nigerian meals from Chuks Kitchen, freshly prepared and delivered across Lagos. Explore jollof rice, soups, grills, sides, desserts and more."
-        canonical="https://chukks-bites.netlify.app/explore"
+        canonical="https://chukks-kitchen.netlify.app/explore"
       />
       <ExploreHero />
       <div className="search-bar">
