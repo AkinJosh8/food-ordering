@@ -6,7 +6,7 @@ import Explore from "./pages/Explore"
 import Order from "./pages/Order"
 import Account from "./pages/Account"
 import Cart from "./pages/Cart"
-import Hero from './components/Hero'
+import Hero from "./components/Hero"
 import Checkout from './pages/Checkout'
 import Payment from './pages/Payment'
 import OrderConfirmation from './pages/OrderConfirmation'
@@ -103,7 +103,7 @@ function App() {
        searchTerm={searchTerm}
        setSearchTerm={setSearchTerm}
       />
-
+      <Hero />
       {toast && 
       <div className="toast">
         {toast}
